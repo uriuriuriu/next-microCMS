@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        // アルファベット順
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-rename-tag",
+        "oderwat.indent-rainbow",
+        "streetsidesoftware.code-spell-checker",
+        "vincaslt.highlight-matching-tag",
+        "wayou.vscode-todo-highlight",
+    ],
+}
