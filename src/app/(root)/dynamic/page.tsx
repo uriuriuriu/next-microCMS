@@ -1,4 +1,3 @@
-import "server-only";
 import Link from "next/link";
 import { getList } from "@libs/microcms";
 

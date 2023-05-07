@@ -1,4 +1,3 @@
-import "server-only";
 import { use } from "react";
 import { getList } from "@libs/microcms";
 

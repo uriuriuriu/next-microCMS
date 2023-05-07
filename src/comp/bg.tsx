@@ -1,5 +1,4 @@
 "use client";
-import "client-only";
 import { usePathname } from "next/navigation";
 
 export default function Bg() {

@@ -1,4 +1,3 @@
-import "server-only";
 import { Suspense } from "react";
 import { getList } from "@libs/microcms";
 import { Blog } from "./blog";

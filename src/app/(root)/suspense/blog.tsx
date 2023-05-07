@@ -1,4 +1,3 @@
-import "server-only";
 import { getList } from "@libs/microcms";
 
 export async function Blog() {

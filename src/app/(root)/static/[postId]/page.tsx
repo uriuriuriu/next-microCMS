@@ -1,4 +1,3 @@
-import "server-only";
 import { notFound } from "next/navigation";
 import parse from "html-react-parser";
 import { getDetail, getList } from "@libs/microcms";

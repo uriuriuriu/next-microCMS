@@ -1,4 +1,3 @@
-import "server-only";
 import Bg from "@comp/bg";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
