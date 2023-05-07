@@ -1,5 +1,6 @@
+import "server-only";
 import Link from "next/link";
-import { getList } from "../../libs/microcms";
+import { getList } from "@libs/microcms";
 
 // 60秒間はキャッシュを利用する
 export const revalidate = 60;

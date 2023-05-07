@@ -1,8 +1,8 @@
-import { use } from "react";
-import { getList } from "../../libs/microcms";
+import "server-only";
+import { getList } from "@libs/microcms";
 
-export function BlogUse() {
-  const { contents } = use(getList());
+export async function Blog() {
+  const { contents } = await getList();
 
   if (!contents || contents.length === 0) {
     return <h1>No contents</h1>;

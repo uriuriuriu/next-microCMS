@@ -1,4 +1,5 @@
-import { BlogResponse } from "../../libs/microcms";
+import "server-only";
+import { BlogResponse } from "@libs/microcms";
 
 export async function BlogPromiseProps({
   promise,

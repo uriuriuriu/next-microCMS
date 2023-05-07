@@ -1,5 +1,6 @@
+import "server-only";
 import Link from "next/link";
-import { getList } from "../../libs/microcms";
+import { getList } from "@libs/microcms";
 
 export default async function StaticPage() {
   const { contents } = await getList();
