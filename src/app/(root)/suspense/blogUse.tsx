@@ -1,5 +1,5 @@
 import { use } from "react";
-import { getList } from "../../libs/microcms";
+import { getList } from "@libs/microcms";
 
 export function BlogUse() {
   const { contents } = use(getList());
