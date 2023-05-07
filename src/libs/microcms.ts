@@ -39,6 +39,7 @@ export const getList = async (queries?: MicroCMSQueries) => {
 
   return listData;
 };
+export type BlogResponse = ReturnType<typeof getList>;
 
 // ブログの詳細を取得
 export const getDetail = async (
