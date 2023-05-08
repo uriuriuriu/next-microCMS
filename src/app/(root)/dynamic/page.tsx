@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { getList } from "@libs/microcms";
+import Link from 'next/link';
+import { getList } from '@libs/microcms';
 
 // 60秒間はキャッシュを利用する
 export const revalidate = 60;
@@ -18,7 +18,7 @@ export default async function StaticPage() {
     <div>
       <h1>{time}</h1>
       <ul>
-        {contents.map((post) => {
+        {contents.map(post => {
           return (
             <li key={post.id}>
               <Link href={`/dynamic/${post.id}`}>{post.title}</Link>

@@ -1,4 +1,4 @@
-import { getList } from "@libs/microcms";
+import { getList } from '@libs/microcms';
 
 export async function Blog() {
   const { contents } = await getList();
@@ -9,7 +9,7 @@ export async function Blog() {
 
   return (
     <ul>
-      {contents.map((item) => {
+      {contents.map(item => {
         return (
           <li key={item.id}>
             <h1>{item.title}</h1>

@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typeGen": "microcms-typescript src/schema src/types/cms-types.ts"
+    "typeGen": "microcms-typescript src/schema src/types/cms-types.ts",
+    "fmt": "prettier --write 'src/app/**/*.tsx'"
   },
   "dependencies": {
     "@types/node": "20.1.0",
@@ -24,7 +25,9 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^8.8.0",
     "microcms-typescript": "^1.0.14",
+    "prettier": "^2.8.8",
     "ts-node": "^10.9.1"
   }
 }

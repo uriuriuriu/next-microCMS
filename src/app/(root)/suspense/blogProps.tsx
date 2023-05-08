@@ -1,4 +1,4 @@
-import { BlogResponse } from "@libs/microcms";
+import { BlogResponse } from '@libs/microcms';
 
 export async function BlogPromiseProps({
   promise,
@@ -9,7 +9,7 @@ export async function BlogPromiseProps({
 
   return (
     <ul>
-      {contents.map((item) => {
+      {contents.map(item => {
         return (
           <li key={item.id}>
             <h1>{item.title}</h1>

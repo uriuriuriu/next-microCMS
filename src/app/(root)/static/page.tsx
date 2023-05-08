@@ -1,5 +1,5 @@
-import Link from "next/link";
-import { getList } from "@libs/microcms";
+import Link from 'next/link';
+import { getList } from '@libs/microcms';
 
 export default async function StaticPage() {
   const { contents } = await getList();
@@ -15,7 +15,7 @@ export default async function StaticPage() {
     <div>
       <h1>{time}</h1>
       <ul>
-        {contents.map((post) => {
+        {contents.map(post => {
           return (
             <li key={post.id}>
               <Link href={`/static/${post.id}`}>{post.title}</Link>
