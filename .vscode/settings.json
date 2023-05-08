@@ -1,4 +1,4 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
-  "cSpell.words": ["MICROCMS", "eyecatch"]
+  "cSpell.words": ["MICROCMS", "eyecatch", "arrowParens"]
 }
