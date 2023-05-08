@@ -1,9 +1,9 @@
-import { BlogResponse } from '@libs/microcms';
+import { BlogListRes } from '@libs/microcms';
 
 export async function BlogPromiseProps({
   promise,
 }: {
-  promise: Promise<BlogResponse>;
+  promise: Promise<BlogListRes>;
 }) {
   const { contents } = await promise;
 
