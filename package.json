@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "typeGen": "microcms-typescript src/schema src/models/.dist/cms-types.ts && npm run fmt",
+    "fmt": "prettier --write '*.{js,ts,json,md}' --write 'src/**/*.{js,json,md,html,tsx,ts,css,scss}'"
   },
   "dependencies": {
     "@types/node": "20.1.0",
@@ -16,9 +18,16 @@
     "eslint-config-next": "13.4.1",
     "html-react-parser": "^3.0.16",
     "microcms-js-sdk": "^2.3.3",
+    "microcms-lib": "^1.0.4",
     "next": "13.4.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.8.0",
+    "microcms-typescript": "^1.0.14",
+    "prettier": "^2.8.8",
+    "ts-node": "^10.9.1"
   }
 }

@@ -1,8 +1,8 @@
-import { Suspense } from "react";
-import { getList } from "@libs/microcms";
-import { Blog } from "./blog";
-import { BlogPromiseProps } from "./blogProps";
-import { BlogUse } from "./blogUse";
+import { Suspense } from 'react';
+import { getList } from '@libs/microcms';
+import { Blog } from './blog';
+import { BlogPromiseProps } from './blogProps';
+import { BlogUse } from './blogUse';
 
 // キャッシュを利用しない
 export const revalidate = 0;

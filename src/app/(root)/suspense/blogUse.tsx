@@ -1,5 +1,5 @@
-import { use } from "react";
-import { getList } from "@libs/microcms";
+import { use } from 'react';
+import { getList } from '@libs/microcms';
 
 export function BlogUse() {
   const { contents } = use(getList());
@@ -10,7 +10,7 @@ export function BlogUse() {
 
   return (
     <ul>
-      {contents.map((item) => {
+      {contents.map(item => {
         return (
           <li key={item.id}>
             <h1>{item.title}</h1>
