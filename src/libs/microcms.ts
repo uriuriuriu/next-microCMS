@@ -1,9 +1,7 @@
 import { createClient } from 'microcms-js-sdk';
 import type { MicroCMSQueries } from 'microcms-js-sdk';
-import { blogs } from '../types/microcms';
+import { Blog } from '@models/microcms';
 const sleep = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
-
-export type Blog = blogs;
 
 if (!process.env.MICROCMS_SERVICE_DOMAIN)
   throw new Error('MICROCMS_SERVICE_DOMAIN is required');

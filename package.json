@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typeGen": "microcms-typescript src/schema src/types/microcms.ts && npm run fmt",
+    "typeGen": "microcms-typescript src/schema src/models/.dist/cms-types.ts && npm run fmt",
     "fmt": "prettier --write '*.{js,ts,json,md}' --write 'src/**/*.{js,json,md,html,tsx,ts,css,scss}'"
   },
   "dependencies": {
